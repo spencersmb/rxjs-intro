@@ -1,0 +1,23 @@
+{
+  "name": "rxjs-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --w --inline",
+    "postinstall": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/core-js": "^0.9.37",
+    "rxjs": "^5.2.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
